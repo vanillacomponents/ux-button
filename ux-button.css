@@ -14,7 +14,7 @@
   border-color: #298eea;
   height: 3rem;
   line-height: 3rem;
-  font-size: 16px }
+  font-size: inherit }
 
 :host(:hover) {
   background: #2180d7;
