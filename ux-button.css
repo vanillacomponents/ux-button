@@ -12,8 +12,8 @@
   background: #298eea;
   cursor: pointer;
   border-color: #298eea;
-  height: 3rem;
-  line-height: 3rem;
+  height: 3em;
+  line-height: 3em;
   font-size: inherit }
 
 :host(:hover) {
