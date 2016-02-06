@@ -20,7 +20,7 @@
     "babel-cli": "*",
     "babel-preset-es2015": "*",
     "babelify": "*",
-    "popper": "0.1.0",
+    "popper": "pemrouz/popper#0.1.0",
     "browserify": "*",
     "browserenv": "*",
     "tape": "*",
