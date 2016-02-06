@@ -6,7 +6,7 @@ export default function uxButton(state) {
 
   o.attr('tabindex', '-1')
     .classed('is-spinning', spinning)
-
+    
   o('span', 1)
     .text(label)
 

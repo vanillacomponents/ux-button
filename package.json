@@ -1,0 +1,29 @@
+{
+  "name": "ux-button",
+  "version": "0.0.0",
+  "main": "dist/ux-button.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanillacomponents/ux-button.git"
+  },
+  "scripts": {
+    "babel": "babel src -d dist --copy-files",
+    "clean": "rm -rf dist && mkdir dist",
+    "build": "npm run clean && npm run babel",
+    "test": "popper",
+    "version": "npm run build && git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Pedram Emrouznejad (https://github.com/pemrouz)",
+  "license": "pemrouz.mit-license.org",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-es2015": "*",
+    "babelify": "*",
+    "popper": "*",
+    "browserify": "*",
+    "browserenv": "*",
+    "tape": "*",
+    "utilise": "*"
+  }
+}
