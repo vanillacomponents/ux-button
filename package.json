@@ -25,6 +25,7 @@
     "browserenv": "*",
     "tape": "*",
     "utilise": "*",
+    "cssscope": "*",
     "utilise.filify": "*"
   }
 }
