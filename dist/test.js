@@ -71,5 +71,7 @@ once(document.head)('style', 1).html((0, _cssscope2.default)(file('dist/ux-butto
     t.equal(style(raw('.spinner', host)).opacity, '0', 'style transparent');
   });
 
-  o.html('');
+  time(610, function (d) {
+    return o.html('');
+  });
 });

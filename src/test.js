@@ -56,5 +56,5 @@ test('api test - spin', t => {
     t.equal(style(raw('.spinner', host)).opacity, '0', 'style transparent')
   })
 
-  o.html('')
+  time(610, d => o.html(''))
 })
