@@ -1,7 +1,7 @@
 {
   "name": "ux-button",
   "version": "0.0.0",
-  "main": "dist/ux-button.js",
+  "main": "dist",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vanillacomponents/ux-button.git"
@@ -9,7 +9,8 @@
   "scripts": {
     "babel": "babel src -d dist --copy-files",
     "clean": "rm -rf dist && mkdir dist",
-    "build": "npm run clean && npm run babel",
+    "export": "sh -c 'rijs.export dist'",
+    "build": "npm run clean && npm run babel && npm run export",
     "test": "popper",
     "version": "npm run build && git add -A",
     "postversion": "git push && git push --tags"
@@ -20,12 +21,13 @@
     "babel-cli": "*",
     "babel-preset-es2015": "*",
     "babelify": "*",
-    "popper": "pemrouz/popper#0.1.0",
+    "popper": "*",
     "browserify": "*",
     "browserenv": "*",
     "tape": "*",
     "utilise": "*",
     "cssscope": "*",
-    "utilise.filify": "*"
+    "utilise.filify": "*",
+    "rijs.export": "*"
   }
 }
