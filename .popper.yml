@@ -1,7 +1,7 @@
 globals:
   - <script src="https://cdn.polyfill.io/v1/polyfill.min.js"></script>
   - <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.0.0/chai.min.js"></script>
-  - <script src="https://rawgit.com/utilise/utilise/master/utilise.js"></script>
+  - <script src="https://cdn.jsdelivr.net/gh/utilise/utilise@master/utilise.js"></script>
 
 runner: tape
 
